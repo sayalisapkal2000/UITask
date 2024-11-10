@@ -18,7 +18,7 @@ body {
 }
 
 h1 {
-	color: #e76f51;
+	color: #FF6B82;
 	font-size: 24px;
 	margin-bottom: 10px;
 }
@@ -26,7 +26,7 @@ h1 {
 .outer-circle {
     width: 20px;               
     height: 20px;
-    border: 1px solid #e76f51;   
+    border: 1px solid #FF6B82;   
     border-radius: 50%;       
     display: inline-flex;
     align-items: center;
@@ -36,7 +36,7 @@ h1 {
 .inner-circle {
     width: 15px;              
     height: 15px;
-    background-color: #e76f51;   
+    background-color: #FF6B82;   
     border-radius: 50%;       
 }
 .option-outer{
@@ -68,7 +68,7 @@ h1 {
 }
 
 .percentOff{
-    background-color: #e76f51;
+    background-color: #FF6B82;
     padding: 2px 8px;
     color: white;
 
@@ -141,13 +141,13 @@ select {
     justify-content: space-between;
 }
 .cart .freedelivery{
-    color: #e76f51;
+    color: #FF6B82;
     font: bold;
     font-size: 16px;
 }
 .addtocart{
     margin-top: 10px;
-    background-color: #e76f51;
+    background-color: #FF6B82;
     width: 100%;
     padding: 12px 5px;
     border: none;
