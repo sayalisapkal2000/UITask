@@ -1,239 +1,241 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>BOGO Offer</title>
-      <link rel="stylesheet" href="style.css">
-   </head>
-   <body>
-      <div class="container">
-        
-         <h1>YAY! It's BOGO</h1>
-         <div class="option-outer" onclick="toggleExpand(this)">
-         <div class="option">
-            
-            <div class="unit">
-                <div class="outer-circle">
-                    <div class="inner-circle"></div>
-                </div>
-                <div class="subUnit">
-                    <div >
-                        <span style="font-weight: bold;">1 Unit</span> <span class="percentOff"> 10% Off</span>
-                    </div>
-                    <div style="color: rgb(92, 90, 90);">Standard Price</div>
-                </div>
-            </div>
-            <div class="discount">
-                <div class="price">$10.00 USD</div>
-                <div class="originalPrice">$24.00 USD</div>
-            </div>
-            
-         </div>
-         <div class="expand">
-            <table class="table">
-                <tr>
-                    <th></th>
-                    <th>Size</th>
-                    <th>Colour</th>
-                </tr>
-                <tr>
-                    <td>#1</td>
-                    
-                    <td>
-                        <select>
-                            <option>Size</option>
-                            <option>S</option>
-                            <option>M</option>
-                        </select>
-                    </td>
-                    <td>
-                        <select>
-                            <option>Colour</option>
-                            <option>Black</option>
-                            <option>yellow</option>
-                        </select>
-
-                    </td>
-                </tr>
-                <tr>
-                    <td>#2</td>
-                    <td>
-                        <select>
-                            <option>Size</option>
-                            <option>S</option>
-                            <option>M</option>
-                        </select>
-                    </td>
-                    <td>
-                        <select>
-                            <option>Colour</option>
-                            <option>Black</option>
-                            <option>yellow</option>
-                        </select>
-
-                    </td>
-                </tr>
-            </table>
-
-        </div>
-        </div>
-        
-        <div class="option-outer">
-            <div class="option">
-               
-               <div class="unit">
-                   <div class="outer-circle">
-                       <div class="inner-circle"></div>
-                   </div>
-                   <div class="subUnit">
-                       <div >
-                           <span style="font-weight: bold;">2 Unit</span> <span class="percentOff"> 20% Off</span>
-                       </div>
-                       <div style="color: rgb(92, 90, 90);">Standard Price</div>
-                   </div>
-               </div>
-               <div class="discount">
-                   <div class="price">$18.00 USD</div>
-                   <div class="originalPrice">$24.00 USD</div>
-               </div>
-               
-            </div>
-            <div class="expand">
-               <table class="table">
-                   <tr>
-                       <th></th>
-                       <th>Size</th>
-                       <th>Colour</th>
-                   </tr>
-                   <tr>
-                       <td>#1</td>
-                       
-                       <td>
-                           <select>
-                               <option>Size</option>
-                               <option>S</option>
-                               <option>M</option>
-                           </select>
-                       </td>
-                       <td>
-                           <select>
-                               <option>Colour</option>
-                               <option>Black</option>
-                               <option>yellow</option>
-                           </select>
-   
-                       </td>
-                   </tr>
-                   <tr>
-                       <td>#2</td>
-                       <td>
-                           <select>
-                               <option>Size</option>
-                               <option>S</option>
-                               <option>M</option>
-                           </select>
-                       </td>
-                       <td>
-                           <select>
-                               <option>Colour</option>
-                               <option>Black</option>
-                               <option>yellow</option>
-                           </select>
-   
-                       </td>
-                   </tr>
-               </table>
-   
-           </div>
-        </div>
-        <div class="option-outer">
-            <div class="option">
-               
-               <div class="unit">
-                   <div class="outer-circle">
-                       <div class="inner-circle"></div>
-                   </div>
-                   <div class="subUnit">
-                       <div >
-                           <span style="font-weight: bold;">3 Unit</span> <span class="percentOff"> 30% Off</span>
-                       </div>
-                       <div style="color: rgb(92, 90, 90);">Standard Price</div>
-                   </div>
-               </div>
-               <div class="discount">
-                   <div class="price">$24.00 USD</div>
-                   <div class="originalPrice">$24.00 USD</div>
-               </div>
-               
-            </div>
-            <div class="expand">
-               <table class="table">
-                   <tr>
-                       <th></th>
-                       <th>Size</th>
-                       <th>Colour</th>
-                   </tr>
-                   <tr>
-                       <td>#1</td>
-                       
-                       <td>
-                           <select>
-                               <option>Size</option>
-                               <option>S</option>
-                               <option>M</option>
-                           </select>
-                       </td>
-                       <td>
-                           <select>
-                               <option>Colour</option>
-                               <option>Black</option>
-                               <option>yellow</option>
-                           </select>
-   
-                       </td>
-                   </tr>
-                   <tr>
-                       <td>#2</td>
-                       <td>
-                           <select>
-                               <option>Size</option>
-                               <option>S</option>
-                               <option>M</option>
-                           </select>
-                       </td>
-                       <td>
-                           <select>
-                               <option>Colour</option>
-                               <option>Black</option>
-                               <option>yellow</option>
-                           </select>
-   
-                       </td>
-                   </tr>
-               </table>
-   
-           </div>
-        </div>
-
-         <div class="cart">
-            <div class="freedelivery">Free Delivery</div>
-            <div id="toatlAmt">Total: $18.00 USD</div>
-         </div>
-
-         <button class="addtocart"> + Add to Cart</button>
-        
-      </div>
-      <script> function toggleExpand(option) {
-        // Find the corresponding .expand element inside the clicked option
-        var expandSection = option.querySelector('.expand');
-        
-        // Toggle the "active" class to show/hide the section
-        if (expandSection.classList.contains('active')) {
-            expandSection.classList.remove('active'); // Hide the section
-        } else {
-            expandSection.classList.add('active'); // Show the section
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOGO Offer</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function toggleExpand(element) {
+            const expandSection = element.querySelector('.expand');
+            expandSection.classList.toggle('expanded');
         }
-    }</script> 
-   </body>
+
+        function updateTotalPrice(price) {
+            document.getElementById("totalAmt").textContent = `Total: ${price} USD`;
+        }
+        
+        function selectOption(priceElement) {
+            const price = priceElement.querySelector(".price").textContent;
+            updateTotalPrice(price);
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>YAY! It's BOGO</h1>
+        
+        <div class="option-outer" onclick="selectOption(this); toggleExpand(this);">
+            <div class="option">
+                <div class="unit">
+                    <div class="outer-circle">
+                        <div class="inner-circle"></div>
+                    </div>
+                    <div class="subUnit">
+                        <div>
+                            <span style="font-weight: bold;">1 Unit</span> <span class="percentOff">10% Off</span>
+                        </div>
+                        <div style="color: rgb(92, 90, 90);">Standard Price</div>
+                    </div>
+                </div>
+                <div class="discount">
+                    <div class="price">$10.00</div>
+                    <div class="originalPrice">$24.00 USD</div>
+                </div>
+            </div>
+            <div class="expand">
+                <div class="expand">
+                    <table class="table">
+                        <tr>
+                            <th></th>
+                            <th>Size</th>
+                            <th>Colour</th>
+                        </tr>
+                        <tr>
+                            <td>#1</td>
+                            
+                            <td>
+                                <select>
+                                    <option>Size</option>
+                                    <option>S</option>
+                                    <option>M</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select>
+                                    <option>Colour</option>
+                                    <option>Black</option>
+                                    <option>yellow</option>
+                                </select>
+        
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>#2</td>
+                            <td>
+                                <select>
+                                    <option>Size</option>
+                                    <option>S</option>
+                                    <option>M</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select>
+                                    <option>Colour</option>
+                                    <option>Black</option>
+                                    <option>yellow</option>
+                                </select>
+        
+                            </td>
+                        </tr>
+                    </table>
+        
+                </div>
+            </div>
+        </div>
+
+        <div class="option-outer" onclick="selectOption(this); toggleExpand(this);">
+            <div class="option">
+                <div class="unit">
+                    <div class="outer-circle">
+                        <div class="inner-circle"></div>
+                    </div>
+                    <div class="subUnit">
+                        <div>
+                            <span style="font-weight: bold;">2 Units</span> <span class="percentOff">20% Off</span>
+                        </div>
+                        <div style="color: rgb(92, 90, 90);">Standard Price</div>
+                    </div>
+                </div>
+                <div class="discount">
+                    <div class="price">$18.00</div>
+                    <div class="originalPrice">$24.00 USD</div>
+                </div>
+            </div>
+            <div class="expand">
+                <div class="expand">
+                    <table class="table">
+                        <tr>
+                            <th></th>
+                            <th>Size</th>
+                            <th>Colour</th>
+                        </tr>
+                        <tr>
+                            <td>#1</td>
+                            
+                            <td>
+                                <select>
+                                    <option>Size</option>
+                                    <option>S</option>
+                                    <option>M</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select>
+                                    <option>Colour</option>
+                                    <option>Black</option>
+                                    <option>yellow</option>
+                                </select>
+        
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>#2</td>
+                            <td>
+                                <select>
+                                    <option>Size</option>
+                                    <option>S</option>
+                                    <option>M</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select>
+                                    <option>Colour</option>
+                                    <option>Black</option>
+                                    <option>yellow</option>
+                                </select>
+        
+                            </td>
+                        </tr>
+                    </table>
+        
+                </div>
+            </div>
+        </div>
+        <div class="option-outer" onclick="selectOption(this); toggleExpand(this);">
+            <div class="option">
+                <div class="unit">
+                    <div class="outer-circle">
+                        <div class="inner-circle"></div>
+                    </div>
+                    <div class="subUnit">
+                        <div>
+                            <span style="font-weight: bold;">3 Units</span> <span class="percentOff">30% Off</span>
+                        </div>
+                        <div style="color: rgb(92, 90, 90);">Standard Price</div>
+                    </div>
+                </div>
+                <div class="discount">
+                    <div class="price">$24.00</div>
+                    <div class="originalPrice">$24.00 USD</div>
+                </div>
+            </div>
+            <div class="expand">
+                <div class="expand">
+                    <table class="table">
+                        <tr>
+                            <th></th>
+                            <th>Size</th>
+                            <th>Colour</th>
+                        </tr>
+                        <tr>
+                            <td>#1</td>
+                            
+                            <td>
+                                <select>
+                                    <option>Size</option>
+                                    <option>S</option>
+                                    <option>M</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select>
+                                    <option>Colour</option>
+                                    <option>Black</option>
+                                    <option>yellow</option>
+                                </select>
+        
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>#2</td>
+                            <td>
+                                <select>
+                                    <option>Size</option>
+                                    <option>S</option>
+                                    <option>M</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select>
+                                    <option>Colour</option>
+                                    <option>Black</option>
+                                    <option>yellow</option>
+                                </select>
+        
+                            </td>
+                        </tr>
+                    </table>
+        
+                </div>
+            </div>
+        </div>
+        <div class="cart">
+            <div class="freedelivery">Free Delivery</div>
+            <div id="totalAmt">Total: $0.00 USD</div>
+        </div>
+
+        <button class="addtocart"> + Add to Cart</button>
+    </div>
+</body>
 </html>

@@ -91,12 +91,17 @@ h1 {
     text-decoration: line-through;
     font-size: 10px;
 }
-.expand{
-    opacity: 0;                       
-    max-height: 0;                   
-    overflow: hidden;                 
-    transition: opacity 0.3s ease, max-height 0.3s ease; 
-    margin-top: 10px;
+
+.expand {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 0.3s ease, max-height 0.3s ease;
+}
+
+.expand.expanded {
+    opacity: 1;
+    max-height: 200px;
 }
 .option-outer:hover .expand {
     opacity: 1;                       
